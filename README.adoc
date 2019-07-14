@@ -1,0 +1,26 @@
+= Documentation Site
+:idprefix:
+:idseparator: -
+// URLs:
+:url-docs: https://docs.oz.com
+:url-org: https://github.com/okbel
+:url-ui: {url-org}/oz-docs-ui
+
+This is the Antora Playbook Project for the OZ Documentation site published at {url-docs}.
+
+== Playbook
+There are two playbook files in this repository, one for each environment.
+
+production-playbook.yml:: Configures the build for the *production* site.
+staging-playbook.yml:: Configures the build for the *staging* site.
+
+== Development
+
+. Install dependencies.
+
+ $ npm i -g gulp-cli
+ $ npm i
+
+== Xref Validation
+
+This project uses the @antora/xref-validator package to validate xrefs.
